@@ -33,10 +33,7 @@ def won?(board)
   return false
 end
 
-draw_board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
-
 def full?(board)
-
 !board.any? { |space|  space == " " }
 end
 
@@ -47,13 +44,8 @@ end
 x_win_diagonal = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
 
 def winner (board)
-
-
-
-
 if index = won?(board)
     board [index.first]
-
 end
 end
 
