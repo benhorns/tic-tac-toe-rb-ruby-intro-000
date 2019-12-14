@@ -23,8 +23,6 @@ WIN_COMBINATIONS = [
   [0,4,8], # Top left to bottom right
   [2,4,6]] # Top right to bottom left
 
-  board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
-
 def over?(board) #overthough this one ...
 won?(board) || draw?(board)
 end
